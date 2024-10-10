@@ -3,3 +3,31 @@ font-family: "Oswald", sans-serif;
 font-family: "Quattrocento", serif;
 font-family: "Share", sans-serif;
 */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+main#grid-container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns:  repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+div.stats-container {
+  display: flex;
+  gap: 10px;
+}
+
+div.button-container {
+  display: flex;
+  gap: 10px;
+}
