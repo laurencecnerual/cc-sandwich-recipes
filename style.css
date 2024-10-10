@@ -76,3 +76,13 @@ div.button-container {
   gap: 10px;
   justify-content: right;
 }
+
+@media only screen and (max-width: 900px) {
+  main#grid-container {
+    margin-top: 20px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns:  repeat(1, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
