@@ -41,8 +41,8 @@ p.food-stats {
   display: flex;
 }
 
-img.star-icon {
-  height: 12px;
+img[class *= "icon"] {
+  height: 14px;
 }
 
 h1, h2, p {
@@ -80,6 +80,21 @@ div.button-container {
   display: flex;
   gap: 10px;
   justify-content: right;
+}
+
+button {
+  background-color: rgb(190, 225, 231);
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  filter: brightness(90%);
 }
 
 @media only screen and (max-width: 900px) {
