@@ -1,15 +1,10 @@
-/*
-font-family: "Oswald", sans-serif;
-font-family: "Quattrocento", serif;
-font-family: "Share", sans-serif;
-*/
-
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(226, 236, 233);
+  padding-bottom: 12px;
 }
 
 h1 {
@@ -104,6 +99,7 @@ button {
   align-items: center;
   gap: 6px;
   font-size: 0.9rem;
+  cursor: pointer
 }
 
 button:hover {
