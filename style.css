@@ -38,6 +38,11 @@ p.desc {
 
 p.food-stats {
   font-size: 0.9rem;
+  display: flex;
+}
+
+img.star-icon {
+  height: 12px;
 }
 
 h1, h2, p {
