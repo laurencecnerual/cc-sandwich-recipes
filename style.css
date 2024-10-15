@@ -45,6 +45,11 @@ img[class *= "icon"] {
   height: 14px;
 }
 
+img.picture {
+  height: 60%;
+  border-radius: 10px 10px 0px 0px; 
+}
+
 h1, h2, p {
   margin: 0;
 }
